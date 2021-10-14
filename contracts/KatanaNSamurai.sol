@@ -49,7 +49,7 @@ contract KatanaNSamurai is ERC721, Ownable {
 	event mintEvent(address owner, uint256 numPurchase, uint256 totalSupply);
 	event shogunateEvent(address owner, uint256 tokenId, string from, string to);
 
-	constructor() ERC721("Katana N Samurai", "KNS") {
+	constructor() ERC721("Katana N Samurai Test", "KNS") {
 		setBaseURI("http://api.katanansamurai.art/Metadata/");
 	}
 
