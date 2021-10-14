@@ -31,17 +31,17 @@ module.exports = {
       }
     },
     rinkeby: {
-      url: process.env.ALCHEMY_API_RINKEBY_KEY,
+      url: "https://eth-rinkeby.alchemyapi.io/v2/5NJZ7GP3CDgWLbb3L0xGUzLyt938icDw",
       accounts:{
-        "mnemonic": process.env.RINKEBY_TEST_MNEMONIC
+        "mnemonic": ""
       }
-    },
-    mainnet: {
-      url: process.env.ALCHEMY_API_MAINNET_KEY, 
-      accounts:[process.env.MAINNET_PRIVATE_KEY],
-      gas: 206511,
-      gasPrice: 20000000000
-
     }
+    // mainnet: {
+    //   url: process.env.ALCHEMY_API_MAINNET_KEY, 
+    //   accounts:[process.env.MAINNET_PRIVATE_KEY],
+    //   gas: 206511,
+    //   gasPrice: 20000000000
+
+    // }
   }
 };
